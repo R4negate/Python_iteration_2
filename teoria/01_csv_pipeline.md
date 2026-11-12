@@ -1,5 +1,7 @@
 # 01. CSV - budujemy pipeline zamowien
 
+[Zadanie: zbuduj pipeline](../zadania/01_pipeline_csv.md)
+
 Zbudujesz pipeline, ktory odczyta `orders.csv`, zwaliduje rekordy i zapisze poprawne oraz odrzucone zamowienia do dwoch plikow.
 
 ## 1. Co to jest CSV i jakie dane przechowuje?

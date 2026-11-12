@@ -1,7 +1,0 @@
-{
-  "source": "datashop",
-  "currency": "PLN",
-  "orders": [
-    {"order_id": 1001},
-  ]
-}

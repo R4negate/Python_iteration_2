@@ -1,5 +1,7 @@
 # 03. Pobieranie danych z API NASA
 
+[Zadanie: zbuduj pipeline](../zadania/03_pipeline_api_nasa.md)
+
 W poprzedniej lekcji mielismy juz plik JSON. Tym razem Python sam poprosi NASA o dane. NASA prowadzi katalog zdarzen, takich jak pozary i burze. Nasz program pobierze odpowiedz z tego katalogu i zapisze ja w pliku.
 
 ```text

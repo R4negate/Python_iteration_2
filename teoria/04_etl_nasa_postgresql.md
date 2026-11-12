@@ -1,5 +1,7 @@
 # 04. ETL: z API NASA do PostgreSQL
 
+[Zadanie: zbuduj pipeline](../zadania/04_pipeline_etl_postgresql.md)
+
 W lekcji 03 pobralismy dane z NASA i zapisalismy je w pliku. Teraz chcemy, zeby te zdarzenia dalo sie znalezc zwyklym `SELECT` w DBeaverze. Najpierw sprawdzimy je w Pythonie.
 
 ```text

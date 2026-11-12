@@ -1,5 +1,7 @@
 # 07. Testy pipeline'u w Pythonie: od pierwszego assert do pytest
 
+[Zadanie: zbuduj pipeline](../zadania/07_pipeline_testy.md)
+
 Wyobraz sobie, ze zmieniasz jedna linie w `normalize_event()`. Pipeline nadal sie uruchamia, ale nagle zaczyna odrzucac otwarte zdarzenia, bo nie maja daty zamkniecia. Nie chcemy sprawdzac tego recznie po kazdej zmianie. **Test automatyczny** uruchamia kod z przygotowanymi danymi i porownuje wynik z tym, czego oczekujemy.
 
 Pracujemy w projekcie `nasa_pipeline` po lekcji 06. Dane w testach to krotkie, wymyslone slowniki. To **nie jest tryb offline ETL**: normalne `python main.py` nadal pobiera dane z NASA. Testy podstawowe nie lacza sie z NASA i nie pisza do bazy.

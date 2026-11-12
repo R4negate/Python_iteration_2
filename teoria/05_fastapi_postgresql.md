@@ -1,5 +1,7 @@
 # 05. Wlasne API do odczytu z PostgreSQL
 
+[Zadanie: zbuduj pipeline](../zadania/05_pipeline_api_fastapi.md)
+
 W lekcji 03 nasz Python pytal NASA o dane. Teraz odwrocimy role: to **nasz program odpowie** na prosbe innego programu. Np. aplikacja z mapa zapyta: "Jakie zdarzenia macie?". Nasze API odczyta wiersze z tabeli `eonet.events` i odesle je jako JSON.
 
 ```text

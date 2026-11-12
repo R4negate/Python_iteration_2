@@ -1,5 +1,7 @@
 # 06. Logowanie: co zrobil pipeline i gdzie sie zatrzymal?
 
+[Zadanie: zbuduj pipeline](../zadania/06_pipeline_logowanie.md)
+
 W [lekcji 04](04_etl_nasa_postgresql.md) program na koncu wypisywal liczbe zapisanych zdarzen. Gdy przerwal prace wczesniej, tego komunikatu nie bylo. Chcemy wiedziec, czy wlasnie czekal na NASA, zapisywal JSON, czy laczyl sie z PostgreSQL. **Log** to zapis tego, co dzialo sie podczas pracy programu.
 
 Pracujemy w tym samym projekcie `nasa_pipeline`. Nadal uruchamiamy `python main.py` i pobieramy dane z NASA. Nie zmieniamy serwera FastAPI ani nie dodajemy drugiego zrodla danych. Wbudowany modul `logging` nie wymaga instalacji.

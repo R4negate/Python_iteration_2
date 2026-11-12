@@ -1,8 +1,15 @@
 # Zadania - Python iteration 2
 
-Cwiczenia sa czescia lekcji: [01. Pipeline CSV](../teoria/01_csv_pipeline.md), [02. Pipeline JSON](../teoria/02_json_pipeline.md), [03. Pobieranie danych z API NASA](../teoria/03_api_nasa.md), [04. ETL do PostgreSQL](../teoria/04_etl_nasa_postgresql.md) i [05. Wlasne API do odczytu](../teoria/05_fastapi_postgresql.md).
+Kazde zadanie konczy sie dzialajacym pipeline'em lub rozbudowa pipeline'u z poprzedniej lekcji. W plikach sa etapy pracy i sposob sprawdzenia wyniku, bez gotowego kodu.
 
-- [06. Logowanie pipeline'u](../teoria/06_logowanie_pipeline.md): sprawdz nieudane uruchomienie i wykryj niepoprawny wiersz w wyniku.
-- [07. Testy pipeline'u z pytest](../teoria/07_testy_pipeline_pytest.md): dopisz test brakujacego pola i test niepoprawnej odpowiedzi HTTP.
-- [08. uv, Poetry, Ruff i Docker](../teoria/08_uv_poetry_ruff_docker.md): odtworz srodowisko, sprawdz kod i porownaj dwa przebiegi ETL w Compose.
+Zadania 01 i 02 to osobne projekty z plikami. W zadaniach 03-08 rozwijasz jeden projekt `nasa_pipeline`.
+
+1. [Zbuduj pipeline zamowien z CSV](01_pipeline_csv.md)
+2. [Zbuduj pipeline zagniezdzonych zamowien JSON](02_pipeline_json.md)
+3. [Zbuduj pipeline pobierania danych z NASA](03_pipeline_api_nasa.md)
+4. [Rozbuduj pobieranie do pelnego ETL](04_pipeline_etl_postgresql.md)
+5. [Udostepnij wynik pipeline'u przez API](05_pipeline_api_fastapi.md)
+6. [Dodaj logowanie do dzialajacego ETL](06_pipeline_logowanie.md)
+7. [Zbuduj zestaw testow pipeline'u](07_pipeline_testy.md)
+8. [Przygotuj pipeline do uruchomienia przez inna osobe](08_pipeline_narzedzia_docker.md)
 

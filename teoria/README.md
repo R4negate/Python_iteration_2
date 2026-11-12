@@ -2,6 +2,8 @@
 
 W tej iteracji budujemy pipeline'y do odczytu, walidacji i zapisu danych z plikow oraz z API.
 
+[Zadania do wszystkich lekcji](../zadania/README.md).
+
 ## Lekcje
 
 1. [Pipeline CSV](01_csv_pipeline.md): odczyt, konfiguracja z `.env`, walidacja i zapis poprawnych oraz odrzuconych zamowien.

@@ -1,5 +1,7 @@
 # 08. Narzedzia projektu: uv, Poetry, Ruff i Docker
 
+[Zadanie: zbuduj pipeline](../zadania/08_pipeline_narzedzia_docker.md)
+
 Do tej pory `nasa_pipeline` dzialal na naszym komputerze. Teraz wyobraz sobie, ze inna osoba dostaje repozytorium. Nie wie, jakiej wersji Pythona uzyc, co zainstalowac ani jak uruchomic baze. W tej lekcji przygotujemy projekt tak, zeby mogla go odtworzyc bez zgadywania.
 
 | Narzedzie | Jaki problem rozwiazuje? |

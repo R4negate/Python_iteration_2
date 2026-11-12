@@ -1,5 +1,7 @@
 # 02. JSON - budujemy pipeline zagniezdzonych zamowien
 
+[Zadanie: zbuduj pipeline](../zadania/02_pipeline_json.md)
+
 Zbudujesz pipeline, ktory odczyta `orders.json`, zwaliduje zamowienia i zapisze poprawne oraz odrzucone rekordy do dwoch plikow.
 
 ## 1. Co to jest JSON i jakie typy danych opisuje?
