@@ -15,6 +15,8 @@ W tej iteracji budujemy pipeline'y do odczytu, walidacji i zapisu danych z pliko
 6. [Logowanie pipeline'u](06_logowanie_pipeline.md): poziomy logow, diagnoza awarii i kontrola wyniku.
 7. [Testy pipeline'u z pytest](07_testy_pipeline_pytest.md): transformacje, pliki, klient HTTP i test integracyjny.
 8. [uv, Poetry, Ruff i Docker](08_uv_poetry_ruff_docker.md): odtwarzanie srodowiska, kontrola kodu i uruchomienie ETL z PostgreSQL w Compose.
+9. [Odporne pobieranie z API](09_odporne_pobieranie_api.md): retry, backoff i testowanie awarii HTTP.
+10. [Duzy CSV, generatory i partie](10_duzy_csv_generatory_partie.md): odczyt po jednym rekordzie, transformacja i zapis partiami.
 
-Lekcje 01 i 02 korzystaja z [`orders.csv`](../materialy/01_csv/orders.csv) i [`orders.json`](../materialy/02_json/orders.json). Lekcje 03-08 rozwijaja ten sam projekt NASA EONET. Podstawowe testy w 07 nie lacza sie z NASA ani baza.
+Lekcje 01 i 02 korzystaja z [`orders.csv`](../materialy/01_csv/orders.csv) i [`orders.json`](../materialy/02_json/orders.json). Lekcje 03-09 rozwijaja projekt NASA EONET. W 10 wracamy do CSV z 01. Podstawowe testy nie lacza sie z NASA ani baza.
 
