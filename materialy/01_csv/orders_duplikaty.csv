@@ -1,0 +1,4 @@
+order_id;customer_name;status;amount;country;note
+1001;Anna;paid;bad;PL;
+1001;Anna;paid;0;PL;
+1001;Anna;paid;120.50;PL;

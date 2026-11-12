@@ -1,0 +1,8 @@
+﻿order_id;customer_name;status;amount;country;note
+1001; Anna Kowalska ; PAID ;120,50; pl ;"Promocja; kod ""START"""
+1002;Jan Nowak;pending;80.00;DE;
+1003;Ola Lis;paid;0;;Zamowienie bezplatne
+1004;Ewa Mazur;paid;bad;FR;Blad kwoty
+1005;Anna Kowalska;cancelled;20.00;PL;
+1006;Jan Nowak;paid;50,25; de ;Druga platnosc
+1007;Piotr Kot;paid;NaN;PL;

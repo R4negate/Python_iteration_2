@@ -1,0 +1,42 @@
+{
+  "source": "datashop",
+  "currency": "PLN",
+  "orders": [
+    {
+      "order_id": 2001,
+      "customer": {
+        "customer_id": 9,
+        "name": "Ola Lis",
+        "country": null
+      },
+      "status": "paid",
+      "amount": "0",
+      "is_gift": true,
+      "tags": null
+    },
+    {
+      "order_id": true,
+      "customer": {
+        "customer_id": 9,
+        "name": "Ola Lis",
+        "country": null
+      },
+      "status": "paid",
+      "amount": "0",
+      "is_gift": true,
+      "tags": null
+    },
+    {
+      "order_id": 2002,
+      "customer": {
+        "customer_id": 9,
+        "name": "Ola Lis",
+        "country": null
+      },
+      "status": "paid",
+      "amount": "0",
+      "is_gift": true,
+      "tags": "promo"
+    }
+  ]
+}

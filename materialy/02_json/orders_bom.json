@@ -1,0 +1,93 @@
+﻿{
+  "source": "datashop",
+  "currency": "PLN",
+  "orders": [
+    {
+      "order_id": 1001,
+      "customer": {
+        "customer_id": 7,
+        "name": " Anna Kowalska ",
+        "country": " pl "
+      },
+      "status": " PAID ",
+      "amount": "120,50",
+      "is_gift": false,
+      "tags": [
+        " promo ",
+        "PROMO",
+        "sql"
+      ]
+    },
+    {
+      "order_id": 1002,
+      "customer": {
+        "customer_id": 8,
+        "name": "Jan Nowak",
+        "country": "DE"
+      },
+      "status": "pending",
+      "amount": "80.00",
+      "is_gift": false,
+      "tags": []
+    },
+    {
+      "order_id": 1003,
+      "customer": {
+        "customer_id": 9,
+        "name": "Ola Lis",
+        "country": null
+      },
+      "status": "paid",
+      "amount": "0",
+      "is_gift": true,
+      "tags": null
+    },
+    {
+      "order_id": 1004,
+      "customer": {
+        "customer_id": 10,
+        "name": "Ewa Mazur",
+        "country": "FR"
+      },
+      "status": "paid",
+      "amount": "bad",
+      "tags": []
+    },
+    {
+      "order_id": 1005,
+      "customer": {
+        "customer_id": 7,
+        "name": "Anna Kowalska",
+        "country": "PL"
+      },
+      "status": "cancelled",
+      "amount": "20.00",
+      "tags": []
+    },
+    {
+      "order_id": 1006,
+      "customer": {
+        "customer_id": 8,
+        "name": "Jan Nowak",
+        "country": " de "
+      },
+      "status": "paid",
+      "amount": "50,25",
+      "tags": [
+        "sql",
+        " retry "
+      ]
+    },
+    {
+      "order_id": 1007,
+      "customer": {
+        "customer_id": 11,
+        "name": "Piotr Kot",
+        "country": "PL"
+      },
+      "status": "paid",
+      "amount": "NaN",
+      "tags": []
+    }
+  ]
+}
