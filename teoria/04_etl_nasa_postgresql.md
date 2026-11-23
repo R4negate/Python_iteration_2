@@ -2,6 +2,8 @@
 
 [Zadanie: zbuduj pipeline](../zadania/04_pipeline_etl_postgresql.md)
 
+[Nastepnie: 04b. ETL USGS z paginacja i zapisem partiami](04b_etl_usgs_postgresql_batch.md)
+
 W lekcji 03 pobralismy dane z NASA i zapisalismy je w pliku. Teraz chcemy, zeby te zdarzenia dalo sie znalezc zwyklym `SELECT` w DBeaverze. Najpierw sprawdzimy je w Pythonie.
 
 ```text

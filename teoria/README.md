@@ -11,6 +11,7 @@ W tej iteracji budujemy pipeline'y do odczytu, walidacji i zapisu danych z pliko
 3. [Pobieranie danych z API NASA](03_api_nasa.md): metody i statusy HTTP, podstawy paginacji, odczyt i zapis surowej odpowiedzi.
 
 4. [ETL do PostgreSQL](04_etl_nasa_postgresql.md): NASA EONET -> transformacja w Pythonie -> PostgreSQL.
+   - [04b. ETL USGS: paginacja i zapis partiami](04b_etl_usgs_postgresql_batch.md): osobny projekt, odczyt po piec rekordow i jedna transakcja PostgreSQL na partie.
 5. [Wlasne API do odczytu](05_fastapi_postgresql.md): PostgreSQL -> FastAPI -> klient HTTP. API czyta dane zapisane przez ETL i nie uruchamia go na zadanie.
 6. [Logowanie pipeline'u](06_logowanie_pipeline.md): poziomy logow, diagnoza awarii i kontrola wyniku.
 7. [Testy pipeline'u z pytest](07_testy_pipeline_pytest.md): transformacje, pliki, klient HTTP i test integracyjny.
@@ -18,5 +19,5 @@ W tej iteracji budujemy pipeline'y do odczytu, walidacji i zapisu danych z pliko
 9. [Odporne pobieranie z API](09_odporne_pobieranie_api.md): retry, backoff i testowanie awarii HTTP.
 10. [Duzy CSV, generatory i partie](10_duzy_csv_generatory_partie.md): odczyt po jednym rekordzie, transformacja i zapis partiami.
 
-Lekcje 01 i 02 korzystaja z [`orders.csv`](../materialy/01_csv/orders.csv) i [`orders.json`](../materialy/02_json/orders.json). Lekcje 03-09 rozwijaja projekt NASA EONET. W 10 wracamy do CSV z 01. Podstawowe testy nie lacza sie z NASA ani baza.
+Lekcje 01 i 02 korzystaja z [`orders.csv`](../materialy/01_csv/orders.csv) i [`orders.json`](../materialy/02_json/orders.json). Lekcje 03-09 rozwijaja projekt NASA EONET, a 04b po ETL-u NASA to osobny projekt USGS. W 10 wracamy do CSV z 01. Podstawowe testy nie lacza sie z NASA ani baza.
 
